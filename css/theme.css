@@ -1,0 +1,253 @@
+/* =========================
+   DARK MODE
+========================= */
+
+body.dark-mode{
+    background:#020617 !important;
+    color:#f8fafc;
+}
+
+body.dark-mode .main,
+body.dark-mode .chat-page{
+    background:#020617;
+}
+
+body.dark-mode .settings-card,
+body.dark-mode .chat-box,
+body.dark-mode .chat-list,
+body.dark-mode .card,
+body.dark-mode .panel,
+body.dark-mode .quote,
+body.dark-mode .footer{
+    background:#0f172a;
+    color:white;
+    border:1px solid #334155;
+}
+
+body.dark-mode input,
+body.dark-mode select{
+    background:#1e293b;
+    color:white;
+    border:1px solid #475569;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4{
+    color:white;
+}
+
+body.dark-mode p,
+body.dark-mode span{
+    color:#cbd5e1;
+}
+
+/* =========================
+   TEMA SEMA
+========================= */
+
+body.sema-mode{
+    background:linear-gradient(
+        135deg,
+        #dff9fb,
+        #ecfeff
+    ) !important;
+}
+
+body.sema-mode .settings-card,
+body.sema-mode .chat-box,
+body.sema-mode .chat-list,
+body.sema-mode .card,
+body.sema-mode .panel{
+    border:2px solid #06b6d4;
+}
+
+body.sema-mode .save-btn,
+body.sema-mode .message-input button{
+    background:linear-gradient(
+        135deg,
+        #0891b2,
+        #06b6d4
+    );
+}
+
+/* =========================
+   TAMAÑO DE TEXTO
+========================= */
+
+body.font-small{
+    font-size:14px;
+}
+
+body.font-normal{
+    font-size:16px;
+}
+
+body.font-large{
+    font-size:19px;
+}
+
+/* =========================
+CHATS - DARK MODE
+========================= */
+
+body.dark-mode .user-card{
+background:#0f172a;
+color:white;
+border:1px solid #334155;
+}
+
+body.dark-mode .user-card strong{
+color:white;
+}
+
+body.dark-mode .user-card span{
+color:#cbd5e1;
+}
+
+body.dark-mode .chat-header{
+background:#0f172a;
+border-bottom:1px solid #334155;
+}
+
+body.dark-mode .chat-header h3{
+color:white;
+}
+
+body.dark-mode .messages{
+background:#020617;
+}
+
+body.dark-mode .received{
+background:#1e293b;
+color:white;
+border:1px solid #334155;
+}
+
+body.dark-mode .search input{
+background:#1e293b;
+color:white;
+border:1px solid #475569;
+}
+
+body.dark-mode .search input::placeholder{
+color:#94a3b8;
+}
+
+body.dark-mode .message-input{
+background:#0f172a;
+border-top:1px solid #334155;
+}
+
+body.dark-mode .message-input input{
+background:#1e293b;
+color:white;
+}
+
+body.dark-mode .message-input input::placeholder{
+color:#94a3b8;
+}
+
+body.dark-mode .contact:hover
+
+body.dark-mode .active-contact{
+background:rgba(6,182,212,.15);
+}
+
+body.dark-mode .contact h4{
+color:white;
+}
+
+body.dark-mode .contact p{
+color:#cbd5e1;
+}
+
+/* =========================
+CHATS - TEMA SEMA
+========================= */
+
+body.sema-mode .user-card{
+border:2px solid #06b6d4;
+}
+
+body.sema-mode .chat-header{
+border-bottom:2px solid #bae6fd;
+}
+
+body.sema-mode .messages{
+background:#f0fdff;
+}
+
+body.sema-mode .received{
+background:white;
+border:2px solid #bae6fd;
+}
+
+body.sema-mode .active-contact{
+background:#dff9fb;
+border:2px solid #06b6d4;
+}
+
+body.sema-mode .search input{
+background:#ecfeff;
+}
+
+body.sema-mode .message-input input{
+background:#ecfeff;
+}
+
+/* =========================
+   DASHBOARD - DARK MODE
+========================= */
+
+body.dark-mode .profile{
+    background:#0f172a;
+    border:1px solid #334155;
+}
+
+body.dark-mode .profile h4,
+body.dark-mode .profile strong{
+    color:white;
+}
+
+body.dark-mode .profile p,
+body.dark-mode .profile span{
+    color:#cbd5e1;
+}
+
+body.dark-mode .footer{
+    background:#0f172a;
+    border:1px solid #334155;
+}
+
+body.dark-mode .footer-bottom{
+    background:#020617;
+    border-top:1px solid #334155;
+}
+
+body.dark-mode .footer h3,
+body.dark-mode .footer h4{
+    color:white;
+}
+
+body.dark-mode .footer p,
+body.dark-mode .footer a{
+    color:#cbd5e1;
+}
+
+/* =========================
+   DASHBOARD - TEMA SEMA
+========================= */
+
+body.sema-mode .profile{
+    border:2px solid #06b6d4;
+}
+
+body.sema-mode .footer{
+    border:2px solid #06b6d4;
+}
+
+body.sema-mode .footer-bottom{
+    border-top:2px solid #bae6fd;
+}

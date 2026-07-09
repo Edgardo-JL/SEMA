@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEMA | Configuración</title>
+
+    <link rel="stylesheet" href="/css/configuracion.css">
+    <link rel="stylesheet" href="/css/theme.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div>
+
+            <div class="logo">
+
+                <div class="logo-icon">
+                    <img src="/imagenes/logo.png" alt="SEMA">
+                </div>
+
+                <div class="logo-text">
+                    <h1>SEMA</h1>
+                    <span>Comunicación que Sana</span>
+                </div>
+
+            </div>
+
+      <nav class="menu">
+
+    <a href="dashboard.html" class="active">
+        <span class="icon">🏠</span>
+        <span class="text">Inicio</span>
+    </a>
+
+    <a href="chats.html">
+        <span class="icon">💬</span>
+        <span class="text">Chats</span>
+    </a>
+
+    <a href="estado.html">
+        <span class="icon">🧠</span>
+        <span class="text">Estado Emocional</span>
+    </a>
+
+    <a href="citas.html">
+        <span class="icon">📅</span>
+        <span class="text">Citas</span>
+    </a>
+
+    <a href="notificaciones.html">
+        <span class="icon">🔔</span>
+        <span class="text">Notificaciones</span>
+    </a>
+
+    <a href="configuracion.html">
+        <span class="icon">⚙️</span>
+        <span class="text">Configuración</span>
+    </a>
+
+    <a href="panic.html" class="panic-link">
+        <span class="icon">🚨</span>
+        <span class="text">Botón de Pánico</span>
+    </a>
+
+</nav>
+        </a>
+
+      </nav>
+
+
+        </div>
+
+    </aside>
+
+    <!-- MAIN -->
+
+    <main class="main">
+
+    <div class="topbar">
+<button id="menuToggle" class="menu-toggle">
+    ☰
+</button>
+        <div class="page-header">
+
+            <div>
+                <h2>⚙️ Configuración</h2>
+                <p>Personaliza tu experiencia dentro de SEMA</p>
+            </div>
+
+        </div>
+
+        <div class="settings-grid">
+
+            <!-- PERFIL -->
+
+            <section class="settings-card">
+
+                <h3>👤 Perfil de Usuario</h3>
+
+                <div class="profile-box">
+
+                    <img src="/imagenes/foto de perfil.jpeg" alt="Usuario">
+
+                    <button>Cambiar Foto</button>
+
+                </div>
+
+                <div class="form-grid">
+
+                    <div>
+                        <label>Nombre</label>
+                        <input type="text" value="Steven">
+                    </div>
+
+                    <div>
+                        <label>Apellido</label>
+                        <input type="text" value="Martínez">
+                    </div>
+
+                    <div>
+                        <label>Correo</label>
+                        <input type="email" value="usuario@sema.com">
+                    </div>
+
+                    <div>
+                        <label>Teléfono</label>
+                        <input type="tel">
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- SEGURIDAD -->
+
+            <section class="settings-card">
+
+                <h3>🔒 Seguridad</h3>
+
+                <div class="form-grid">
+
+                    <div>
+                        <label>Contraseña Actual</label>
+                        <input type="password">
+                    </div>
+
+                    <div>
+                        <label>Nueva Contraseña</label>
+                        <input type="password">
+                    </div>
+
+                    <div>
+                        <label>Confirmar Contraseña</label>
+                        <input type="password">
+                    </div>
+
+                </div>
+
+                <div class="switch-row">
+                    <span>Autenticación en dos pasos</span>
+                    <input type="checkbox">
+                </div>
+
+            </section>
+
+            <!-- NOTIFICACIONES -->
+
+            <section class="settings-card">
+
+                <h3>🔔 Notificaciones</h3>
+
+                <div class="switch-row">
+                    <span>Mensajes</span>
+                    <input type="checkbox" checked>
+                </div>
+
+                <div class="switch-row">
+                    <span>Citas</span>
+                    <input type="checkbox" checked>
+                </div>
+
+                <div class="switch-row">
+                    <span>Recordatorios emocionales</span>
+                    <input type="checkbox" checked>
+                </div>
+
+                <div class="switch-row">
+                    <span>Correos electrónicos</span>
+                    <input type="checkbox">
+                </div>
+
+            </section>
+
+            <!-- APARIENCIA -->
+
+            <section class="settings-card">
+
+<h3>🎨 Apariencia</h3>
+
+<label>Tema</label>
+
+<select id="themeSelector">
+
+    <option value="light">Claro</option>
+
+    <option value="dark">Oscuro</option>
+
+    <option value="sema">SEMA Azul</option>
+
+</select>
+
+<br><br>
+
+<label>Tamaño de Texto</label>
+
+<select id="fontSelector">
+
+    <option value="small">Pequeño</option>
+
+    <option value="normal" selected>Normal</option>
+
+    <option value="large">Grande</option>
+
+</select>
+            </section>
+
+            <!-- BIENESTAR -->
+
+            <section class="settings-card">
+
+                <h3>❤️ Bienestar Emocional</h3>
+
+                <div class="switch-row">
+                    <span>Frases motivacionales</span>
+                    <input type="checkbox" checked>
+                </div>
+
+                <div class="switch-row">
+                    <span>Seguimiento diario</span>
+                    <input type="checkbox" checked>
+                </div>
+
+                <div class="switch-row">
+                    <span>Registro emocional automático</span>
+                    <input type="checkbox">
+                </div>
+
+            </section>
+
+            <!-- EMERGENCIA -->
+
+            <section class="settings-card emergency">
+
+                <h3>🚨 Contacto de Emergencia</h3>
+
+                <div class="form-grid">
+
+                    <div>
+                        <label>Nombre del Contacto</label>
+                        <input type="text">
+                    </div>
+
+                    <div>
+                        <label>Teléfono</label>
+                        <input type="tel">
+                    </div>
+
+                    <div>
+                        <label>Correo</label>
+                        <input type="email">
+                    </div>
+
+                </div>
+
+                <div class="switch-row">
+                    <span>Compartir ubicación automáticamente</span>
+                    <input type="checkbox">
+                </div>
+
+            </section>
+
+        </div>
+
+        <!-- BOTONES -->
+
+        <div class="actions">
+
+            <button class="save-btn">
+                💾 Guardar Cambios
+            </button>
+
+            <button class="cancel-btn">
+                ❌ Cancelar
+            </button>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="/js/theme.js"></script>
+<script src="/js/configuracion.js"></script>
+<script src="/js/sidebar.js"></script>
+
+</body>
+</html>
